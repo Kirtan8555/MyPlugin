@@ -1,3 +1,5 @@
-git add .poggit.yml
-git commit -m "Trigger Poggit-CI build by modifying .poggit.yml"
-git push origin main
+project:
+  name: "MyPlugin"      # Yahan aapke plugin ka naam hai
+  version: "1.0.0"      # Plugin ki version number
+  main: "MyPlugin\Main" # Aapki main class ka fully-qualified path
+  api: "5.0.0"          # PocketMine-MP API version
