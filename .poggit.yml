@@ -1,0 +1,6 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Kirtan8555/MyPlugin
+build-by-default: true
+branches:
+- main
+projects: []
+...
